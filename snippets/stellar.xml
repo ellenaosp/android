@@ -6,4 +6,5 @@
 	<project path="external/asus/stitchimage" name="syberia-project/platform_external_asus_stitchimage" remote="github" revision="11.0" />
 	<project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab" />
 	<project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
+        <project path="vendor/abcsupport" name="android_vendor_abcsupport" remote="stellar" />
 </manifest>
