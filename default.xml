@@ -19,6 +19,11 @@
   <remote  name="stellar"
            fetch="https://github.com/Stellar-OS"
            revision="lineage-18.1" />
+  
+  <remote  name="devices"
+           fetch="https://github.com/Stellar-Devices"
+           revision="lineage-18.1" />
+
 
   <default revision="refs/heads/lineage-18.1"
            remote="github"
