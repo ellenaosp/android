@@ -1,36 +1,42 @@
-LineageOS
-===========
+<div align="center">
+<h1>Stellar OS</h1>
+<img src="https://user-images.githubusercontent.com/60157798/125198260-75250e80-e261-11eb-95e7-8cf10619b24a.png?raw=true"> 
+<br/>
+<strong><i> Optimized LineageOS-based Android aftermarket firmware with extra features, developed by people all over the world. </i></strong>
 
 Getting started
 ---------------
+To get started with Android/Stellar OS, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+  
+Credits
+-------
+- [**LineageOS**](https://github.com/LineageOS)
+- [**ForkLineageOS**](https://github.com/ForkLineageOS)
+- [**los-modded**](https://github.com/los-modded)
+- [**Mint-OS**](https://github.com/Mint-OS)
+- [**PixelExperience**](https://github.com/PixelExperience)
+- [**halogenOS**](https://github.com/halogenOS)
+- [**AOSiP**](https://github.com/AOSiP)
+*********
+<a href="https://sourceforge.net/projects/stellar-os/">
+<img src="https://img.shields.io/sourceforge/dt/stellar-os?style=for-the-badge">
+</a>
+<a href="https://t.me/Stellar_OS">
+<img src="https://img.shields.io/badge/Telegram-Chat-green?style=for-the-badge">
+</a>
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the LineageOS trees, use a command like this:  
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-18.1
+repo init --depth=1 -u git://github.com/Stellar-OS/android.git -b stellar-S1
 ```
 Then to sync up:
 ```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
-
-
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+And to start build:
+```
+. build/envsetup.sh
+lunch lineage_<devicecodename>-userdebug
+mka bacon -jx
+```
