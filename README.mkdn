@@ -22,6 +22,7 @@ Credits
 - [**ProtonAOSP**](https://github.com/ProtonAOSP)
 - [**hentaiOS**](https://github.com/hentaiOS)
 - [**NezukoOS**](https://github.com/NezukoOS)
+- [**crDroid**](https://github.com/crDroidAndroid)
 *********
 <a href="https://sourceforge.net/projects/stellar-os/">
 <img src="https://img.shields.io/sourceforge/dt/stellar-os?style=for-the-badge">
