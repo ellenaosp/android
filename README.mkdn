@@ -12,6 +12,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 Credits
 -------
 - [**LineageOS**](https://github.com/LineageOS)
+- [**LineageOSMod**](https://github.com/LineageOSMod)
 - [**ForkLineageOS**](https://github.com/ForkLineageOS)
 - [**los-modded**](https://github.com/los-modded)
 - [**Mint-OS**](https://github.com/Mint-OS)
