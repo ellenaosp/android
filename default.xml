@@ -22,7 +22,7 @@
   
   <remote  name="devices"
            fetch="https://github.com/Stellar-Devices"
-           revision="lineage-18.1" />
+           revision="stellar-S1" />
 
 
   <default revision="refs/heads/lineage-18.1"
