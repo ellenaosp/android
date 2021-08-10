@@ -1,0 +1,3 @@
+<manifest>
+	<project path="vendor/priv" name="Stellar-OS/android_vendor_priv" revision="master" remote="private" />
+</manifest>
